@@ -1,19 +1,11 @@
 import React from 'react';
-import './App.css';
-import BodyHome from './components/BodyHome';
-import Header from './components/Header';
-import BodySecondPage from './components/BodySecondPage';
-import AfterLogin from './pages/AfterLogin';
+import { Router } from './Router';
 
-function App() {
+export const App: React.FC = () =>  {
   return ( 
-    <> 
-    <AfterLogin />
-    {/* <BodyHome />
-     <Header />
-     <BodySecondPage /> */}
-    </>
+<>
+   <Router/>
+</>
   );
 }
-
 export default App;
