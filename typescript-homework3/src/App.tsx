@@ -1,21 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BodyHome from './components/BodyHome';
 import Header from './components/Header';
 import BodySecondPage from './components/BodySecondPage';
-import AppRoutes from './Routes';
+import AfterLogin from './pages/AfterLogin';
 
 function App() {
   return ( 
     <> 
-    <BodyHome />
+    <AfterLogin />
+    {/* <BodyHome />
      <Header />
-     <BodySecondPage />
+     <BodySecondPage /> */}
     </>
-   
-
- 
   );
 }
 

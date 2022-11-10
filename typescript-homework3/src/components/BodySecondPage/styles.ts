@@ -14,7 +14,7 @@ export const Panel = styled.div `
     border-radius: 8px;
     display: flex;
     align-items: center;
-    padding-left: 1%;
+    padding-left: 5%;
     gap: 10%;
     font-size: 14px;
     font-family: sans-serif;
