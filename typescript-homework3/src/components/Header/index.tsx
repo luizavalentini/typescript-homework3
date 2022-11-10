@@ -11,6 +11,7 @@ import {
   Button,
   ButtonImg,
   ProfileName,
+  Logo,
 } from "./styles";
 import menuLogin from "../../assets/menu-login.svg";
 import logo2 from "../../assets/logo-2.svg";
@@ -31,7 +32,7 @@ export const Header = ({children} : Header) => {
     <Container>
       <ContainerMenu>
         <img src={menuLogin}></img>
-        <img src={logo2}></img>
+        <Logo src={logo2}></Logo>
       </ContainerMenu>
       <ContainerMenu2>
         <ContainerInterno>

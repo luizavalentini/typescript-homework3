@@ -21,7 +21,6 @@ const BodySecondPage: React.FC = () => {
             <Subtitle>Send your first ticket from here.</Subtitle>
             <Button>ADD NEW TICKET</Button>
         </Container2>
-       
         </Container>
     );
 }

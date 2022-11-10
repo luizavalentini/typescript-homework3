@@ -7,8 +7,8 @@ import BodySecondPage from './components/BodySecondPage';
 
 function App() {
   return (
-    // <Header />
-    <BodySecondPage />
+    <Header />
+    // <BodySecondPage />
   // <BodyHome />
   );
 }

@@ -7,7 +7,6 @@ export const Container = styled.div`
       background-color: white;
       display: flex;
 `;
-
 export const Panel = styled.div `
     width: 210px;
     height: 36px;
@@ -53,5 +52,4 @@ border-radius: 8px;
 font-size: 18px;
 font-family: sans-serif;
 font-weight: 600;
-
 `

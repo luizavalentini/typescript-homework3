@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // ====== Global =========
 export const Container = styled.div`
-padding: 3% 7% 3% 7%;
+padding: 3% 11% 3% 7%;
   height: 50%;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@ padding: 3% 7% 3% 7%;
 
 export const ContainerMenu = styled.div`
 display: flex;
-gap: 10%;
+gap: 15%;
 `
 export const Dash = styled.img `
 height: 17px;
@@ -21,6 +21,9 @@ display: flex;
 gap: 10%;
 align-items: baseline;
 margin-left: 10%;
+`
+export const Logo = styled.img `
+margin-top: -1%;
 `
 export const ContainerMenu3 = styled.div `
 display: flex;

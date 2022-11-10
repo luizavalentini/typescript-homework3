@@ -26,7 +26,6 @@ import logo from "../../assets/logo.png";
 import menu from "../../assets/menu.png";
 import social from "../../assets/social.png";
 
-
 const BodyHome: React.FC = () => {
   return (
     <Container>
