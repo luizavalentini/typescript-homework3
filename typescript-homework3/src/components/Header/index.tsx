@@ -23,7 +23,10 @@ import menssagem from "../../assets/menssagem.png";
 import peter from  "../../assets/peter.png"
 import next from  "../../assets/next-2.png"
 
-const Header: React.FC = () => {
+interface Header {
+  children?: React.ReactNode;
+}
+export const Header = ({children} : Header) => {
   return (
     <Container>
       <ContainerMenu>
