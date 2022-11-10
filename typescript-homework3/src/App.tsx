@@ -4,12 +4,18 @@ import './App.css';
 import BodyHome from './components/BodyHome';
 import Header from './components/Header';
 import BodySecondPage from './components/BodySecondPage';
+import AppRoutes from './Routes';
 
 function App() {
-  return (
-    <Header />
-    // <BodySecondPage />
-  // <BodyHome />
+  return ( 
+    <> 
+    <BodyHome />
+     <Header />
+     <BodySecondPage />
+    </>
+   
+
+ 
   );
 }
 

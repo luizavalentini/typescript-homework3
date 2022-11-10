@@ -1,5 +1,4 @@
 import React from "react";
-import { Header } from "../Header";
 import { Button, Container, Container2, Div, Panel, Title}  from "./styles";
 import file from "../../assets/file.svg";
 import { Subtitle } from "../BodyHome/styles";

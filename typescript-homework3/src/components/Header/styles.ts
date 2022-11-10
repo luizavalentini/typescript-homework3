@@ -18,18 +18,23 @@ width: 20px;
 `
 export const ContainerMenu2 = styled.div `
 display: flex;
-gap: 10%;
+gap: 15%;
 align-items: baseline;
-margin-left: 10%;
+margin-left: 15%;
 `
 export const Logo = styled.img `
-margin-top: -1%;
+width: 100px;
+height: 100px;
+margin-top: -25%;
 `
 export const ContainerMenu3 = styled.div `
 display: flex;
 gap: 15%;
 align-items: baseline;
-margin-left: 10%;
+margin-left: 20%;
+`
+export const Menu = styled.img`
+margin-top: -22%;
 `
 export const Options = styled.p`
 font-family: sans-serif;
@@ -50,7 +55,7 @@ gap: 25%;
 `
 export const Button = styled.button`
 background-color: rgba(245, 245, 247, 1);
-width: 168px;
+width: 198px;
 height: 50px;
 border: none;
 border-radius: 8px;

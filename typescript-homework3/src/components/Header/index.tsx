@@ -12,6 +12,7 @@ import {
   ButtonImg,
   ProfileName,
   Logo,
+  Menu,
 } from "./styles";
 import menuLogin from "../../assets/menu-login.svg";
 import logo2 from "../../assets/logo-2.svg";
@@ -24,14 +25,11 @@ import menssagem from "../../assets/menssagem.png";
 import peter from  "../../assets/peter.png"
 import next from  "../../assets/next-2.png"
 
-interface Header {
-  children?: React.ReactNode;
-}
-export const Header = ({children} : Header) => {
+const Header: React.FC = () => {
   return (
     <Container>
       <ContainerMenu>
-        <img src={menuLogin}></img>
+        <Menu  src={menuLogin}></Menu>
         <Logo src={logo2}></Logo>
       </ContainerMenu>
       <ContainerMenu2>
