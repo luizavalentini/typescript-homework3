@@ -39,8 +39,8 @@ const BodyHome: React.FC = () => {
         <ProfileWelcome>
           <Hamid src={hamid}></Hamid>
           <ProfileWelcomeConatiner>
-             <WelcomeBack>Welcome back,</WelcomeBack>
-          <WelcomeName>Hamid</WelcomeName>
+             <WelcomeBack>Welcome back, </WelcomeBack>
+          <WelcomeName> Hamid</WelcomeName>
           </ProfileWelcomeConatiner>
         </ProfileWelcome>
         <LoginContainer>

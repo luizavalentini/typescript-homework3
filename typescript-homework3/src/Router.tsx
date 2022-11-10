@@ -7,7 +7,8 @@ export const Router: React.FC = () => {
     <>
     <BrowserRouter>
       <Routes>      
-        <Route path="/HomePage" element={<HomePage />} />
+        <Route path=
+        "/HomePage" element={<HomePage />} />
          <Route path="/AfterLogin" element={<AfterLogin />} /> 
         <Route path="*" element={<div>Erro 404 - Página não encontrada.</div>} />
       </Routes>

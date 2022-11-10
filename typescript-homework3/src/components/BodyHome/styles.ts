@@ -49,11 +49,11 @@ export const Hamid = styled.img `
 export const ProfileWelcome = styled.div`
 margin-top: 5%;
 display: flex;
-gap: 4%;
+gap: 3%;
 `
 export const ProfileWelcomeConatiner = styled.div`
 display: flex;
-gap: 2%;
+gap: -1%;
 `
 export  const WelcomeBack = styled.p`
 color: rgba(107, 109, 146, 1);
