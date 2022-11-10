@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AfterLogin from "./pages/AfterLogin";
-import HomePage from "./pages/HomePage";
+import  HomePage from "./pages/HomePage";
 
 export const Router: React.FC = () => {
   return (

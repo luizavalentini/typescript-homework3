@@ -9,5 +9,4 @@ function AfterLogin () {
         </>
     );
 }
-
 export default  AfterLogin;

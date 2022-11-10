@@ -1,6 +1,4 @@
 import styled from "styled-components";
-
-
 // ====== Global =========
 export const Container = styled.div`
       width: 100%;
@@ -12,7 +10,6 @@ export const Container = styled.div`
 
 export const Splash = styled.img`
      display: flex;
-    
 `
 export const Logo = styled.img`
     margin-left: 15%;
@@ -32,7 +29,6 @@ export const Menu = styled.img`
     margin-left: 1%;
     position: absolute;
 `
-
 // ========== Parte do login ============
 
 export const Title = styled.h1 `
@@ -41,7 +37,6 @@ export const Title = styled.h1 `
   font-family: sans-serif;
   font-weight: bold;
 `;
-
 export const  Subtitle = styled.p`
 color: rgba(47, 51, 103, 1);
 font-size: 18px;
@@ -71,19 +66,16 @@ color: rgba(48, 52, 104, 1);
 font-size: 18px;
 font-weight: 600;
 `
-
 export const Login = styled.div `
 margin-top: 13%;
 margin-left: 15%;
 width: 35%;
-
 `
 export const LoginContainer = styled.div `
 display: flex;
 gap: 10%;
 margin-top: 5%;
 `
-
 export const DifferentAcount = styled.p`
 color: rgba(0, 125, 250, 1);
 font-size: 18px;

@@ -7,7 +7,6 @@ padding: 3% 11% 3% 7%;
   width: 100%;
   display: flex;
 `;
-
 export const ContainerMenu = styled.div`
 display: flex;
 gap: 15%;
