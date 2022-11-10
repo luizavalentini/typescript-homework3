@@ -4,7 +4,6 @@ import {
   Title,
   Subtitle,
   Hamid,
-  ContainerImg,
   Login,
   LoginContainer,
   DifferentAcount,
@@ -14,18 +13,27 @@ import {
   WelcomeBack,
   WelcomeName,
   ProfileWelcomeConatiner,
+  DivButton,
+  Splash,
+  Logo,
+  Menu,
+  Social,
 } from "./styles";
 import splash from "../../assets/splash.png";
 import hamid from "../../assets/hamid.png";
+import next from "../../assets/next.png";
 import logo from "../../assets/logo.png";
-import { GrNext } from "react-icons/gr";
+import menu from "../../assets/menu.png";
+import social from "../../assets/social.png";
+
 
 const BodyHome: React.FC = () => {
   return (
     <Container>
-      <ContainerImg>
-        <img src={splash}></img>
-      </ContainerImg>
+        <Splash src={splash}></Splash>
+        <Logo src={logo}></Logo>
+        <Menu src={menu}></Menu>
+        <Social src={social}></Social>
       <Login>
         <Title>Login</Title>
         <Subtitle>Please select your account</Subtitle>
@@ -35,12 +43,14 @@ const BodyHome: React.FC = () => {
              <WelcomeBack>Welcome back,</WelcomeBack>
           <WelcomeName>Hamid</WelcomeName>
           </ProfileWelcomeConatiner>
-         
         </ProfileWelcome>
         <LoginContainer>
           <DifferentAcount>Login to a different account</DifferentAcount>
           <ButtonLogin>
-            Login<GrNext></GrNext>
+          Login
+            <DivButton>
+            <img src={next}></img>
+            </DivButton>
           </ButtonLogin>
         </LoginContainer>
         <SpaceHr></SpaceHr>
